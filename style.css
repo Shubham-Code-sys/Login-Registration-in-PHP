@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.login-box{
+    max-width: 700px;
+    max-height: 900px;
+    float: none;
+    margin: auto;
+    padding-top: 150px;
+}
+.login-left{
+    background-color: rgba(211, 211, 211, 0.7);
+    padding: 30px;
+}
+.login-right{
+    background-color: rgb(27, 27, 27);
+    padding: 30px;
+    color: #fff;
+}
+.form-control{
+    background-color: transparent !important;
+    color: #fff !important;
+}
